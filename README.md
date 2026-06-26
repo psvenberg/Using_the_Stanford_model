@@ -1,0 +1,2 @@
+The "MOTOR_run.ipynb" file contains the code to upload the MOTOR-t-base model into the colab environment. It also contains the code to create realistic but simulated patients to subsequently feed into the model. 
+The "motor_dictionary_codes.txt" file contains the codes the model can recognize to create patient embeddings. The cell in "MOTOR_run.ipynb" that makes simulated patients shows how to use these codes. Diagnosis codes can be ICD or SNOMED codes. Vitals and medications are formatted as LOINC codes. See the cell to understand the formatting better. 
